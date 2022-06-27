@@ -11,6 +11,5 @@ print("O seu nome em minúsculo é {}".format(nome.lower()))
 nome_separado = nome.split()
 quant_letras = len(nome)-nome.count(" ")
 print("Seu nome tem {} letras".format(quant_letras))
-
 quant_prim = nome_separado[0]
 print("O primeiro nome tem {} letras".format(len(quant_prim)))
