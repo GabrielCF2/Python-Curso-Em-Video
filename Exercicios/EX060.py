@@ -4,5 +4,4 @@ c = n
 while n>1:
     n=n-1
     c = (c*n)
-    #c = cont
 print(f"O fatorial é {c}.")
