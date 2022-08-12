@@ -12,7 +12,7 @@ while True:
     print('-'*30)
     sexo = str(input("Digite o sexo da pessoa. [M/F]: ").upper())
     print('-'*30)
-    if 'M' != sexo != 'F':
+    while 'M' != sexo != 'F':
         sexo = str(input("Digite o sexo da pessoa. [M/F]:").upper())
         print('-'*30)
     if idade > 18:
@@ -23,7 +23,7 @@ while True:
         mulheres20 +=1
     parar = str(input("Deseja continuar? [S/N]: ").upper())
     print('-'*30)
-    if "S" != parar != "N":
+    while "S" != parar != "N":
         parar = str(input("Deseja continuar? [S/N]: ").upper())
         print('-'*30)
     if parar == 'N':
